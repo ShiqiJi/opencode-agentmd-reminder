@@ -1,0 +1,24 @@
+{
+  "name": "my-opencode-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "exports": {
+    "./server": "./src/index.ts"
+  },
+  "main": "./src/index.ts",
+  "engines": {
+    "opencode": ">=1.14.0"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.14.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
