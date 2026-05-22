@@ -10,11 +10,15 @@ OpenCode Server plugin — reminds the LLM to check and update AGENT.md with imp
 
 ## Installation
 
-```bash
-# Local install
-opencode plugin ./path/to/agentmd-reminder
+- Copy this plugin into your OpenCode plugins directory;
 
-# Or place in the project's .opencode/plugin/ directory for auto-discovery
+- You can also reference the GitHub repository directly:
+
+```json
+{
+  // .config/opencode/opencode.json
+  "plugin": ["github:ShiqiJi/opencode-agentmd-reminder"]
+}
 ```
 
 ## Configuration
