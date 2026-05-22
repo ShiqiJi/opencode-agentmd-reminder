@@ -1,5 +1,5 @@
 {
-  "name": "my-opencode-plugin",
+  "name": "agentmd-reminder",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^25.9.1",
     "typescript": "^5.7.0"
   }
 }
